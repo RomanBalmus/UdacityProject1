@@ -47,4 +47,23 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
     }
     
+    func testVPlusD() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIDevice.shared().orientation = .faceUp
+        XCUIDevice.shared().orientation = .faceUp
+        
+        let app = XCUIApplication()
+        let calculatedLabel = app.staticTexts["calculated_value"]
+
+        app.buttons["Clear"].tap()
+        app.buttons["V"].tap()
+        app.buttons["+"].tap()
+        app.buttons["D"].tap()
+        XCTAssertEqual(calculatedLabel.label, "VD")
+
+        
+        
+    }
+    
 }
