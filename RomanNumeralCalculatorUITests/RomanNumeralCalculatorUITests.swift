@@ -65,5 +65,30 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
         
     }
-    
+    func testAllAdditionsResult() {
+        XCUIDevice.shared().orientation = .faceUp
+        XCUIDevice.shared().orientation = .faceUp
+        
+        let app = XCUIApplication()
+        let calculatedLabel = app.staticTexts["calculated_value"]
+
+        app.buttons["Clear"].tap()
+        app.buttons["I"].tap()
+        
+        let button = app.buttons["+"]
+        button.tap()
+        app.buttons["V"].tap()
+        button.tap()
+        app.buttons["X"].tap()
+        button.tap()
+        app.buttons["L"].tap()
+        button.tap()
+        app.buttons["C"].tap()
+        button.tap()
+        app.buttons["D"].tap()
+        button.tap()
+        app.buttons["M"].tap()
+        XCTAssertEqual(calculatedLabel.label, "MDCLXVI")
+        
+    }
 }
