@@ -13,7 +13,7 @@ import UIKit
 class ViewController: UIViewController {
     
     // MARK: Properties
-    
+    //changes
     var total = 0
     var signOfNextOperation = 1
 
