@@ -532,6 +532,7 @@
 				42DE84791EBA32740017BAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42DE84851EBA328F0017BAE2 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				42DE84871EBA328F0017BAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		835AEC861D80DD7F0046555C /* Build configuration list for PBXProject "RomanNumeralCalculator" */ = {
 			isa = XCConfigurationList;
