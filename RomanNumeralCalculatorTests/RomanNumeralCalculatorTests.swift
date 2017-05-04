@@ -8,8 +8,9 @@
 
 import XCTest
 @testable import RomanNumeralCalculator
+
 class RomanNumeralCalculatorTests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,6 +31,11 @@ class RomanNumeralCalculatorTests: XCTestCase {
         XCTAssertEqual(toRoman(4), "IV")
         XCTAssertEqual(toRoman(5), "V")
 
+        XCTAssertEqual(toRoman(-1), "-I")
+        XCTAssertEqual(toRoman(-2), "-II")
+        XCTAssertEqual(toRoman(-3), "-III")
+        XCTAssertEqual(toRoman(-4), "-IV")
+        XCTAssertEqual(toRoman(-5), "-V")
     }
     
     func testPerformanceExample() {
