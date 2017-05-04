@@ -91,4 +91,23 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCTAssertEqual(calculatedLabel.label, "MDCLXVI")
         
     }
+    func testAllDiminuitionResult() {
+        XCUIDevice.shared().orientation = .faceUp
+        XCUIDevice.shared().orientation = .faceUp
+        
+        let app = XCUIApplication()
+        let calculatedLabel = app.staticTexts["calculated_value"]
+
+        app.buttons["Clear"].tap()
+        app.buttons["–"].tap()
+        app.buttons["I"].tap()
+        app.buttons["V"].tap()
+        app.buttons["X"].tap()
+        app.buttons["L"].tap()
+        app.buttons["C"].tap()
+        app.buttons["D"].tap()
+        app.buttons["M"].tap()
+        XCTAssertEqual(calculatedLabel.label, "-MDCLXVI")
+        
+    }
 }
