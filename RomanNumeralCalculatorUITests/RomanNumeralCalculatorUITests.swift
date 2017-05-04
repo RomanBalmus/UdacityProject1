@@ -60,7 +60,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         app.buttons["V"].tap()
         app.buttons["+"].tap()
         app.buttons["D"].tap()
-        XCTAssertEqual(calculatedLabel.label, "VD")
+        XCTAssertEqual(calculatedLabel.label, "DV")
 
         
         
