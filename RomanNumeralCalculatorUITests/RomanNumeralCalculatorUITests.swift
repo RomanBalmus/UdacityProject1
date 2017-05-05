@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Firebase
 
 class RomanNumeralCalculatorUITests: XCTestCase {
         
