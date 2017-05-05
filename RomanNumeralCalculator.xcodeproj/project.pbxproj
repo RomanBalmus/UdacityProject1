@@ -10,6 +10,21 @@
 		0A292B7EFB5D1A6A30E1D076 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AED320BBBFC768EA64568A /* CoreText.framework */; };
 		16AF7225CBD90EF93D12DB54 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705F8C50D862D484DEAE47E9 /* SystemConfiguration.framework */; };
 		1A53FCD373D1CAFA463F6523 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF5A441DAC0455CE689465 /* AssetsLibrary.framework */; };
+		42D73B021EBC7A6100199238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
+		42D73B031EBC7A6100199238 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
+		42D73B041EBC7A6100199238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
+		42D73B061EBC7A6100199238 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5A3CCBF263EF915D9C85C8 /* BuddyBuildSDK.framework */; };
+		42D73B071EBC7A6100199238 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF5A441DAC0455CE689465 /* AssetsLibrary.framework */; };
+		42D73B081EBC7A6100199238 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AED320BBBFC768EA64568A /* CoreText.framework */; };
+		42D73B091EBC7A6100199238 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37895EB0CF2A034753AE055D /* CoreTelephony.framework */; };
+		42D73B0A1EBC7A6100199238 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705F8C50D862D484DEAE47E9 /* SystemConfiguration.framework */; };
+		42D73B0B1EBC7A6100199238 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1A7F887A35258C261C31D3 /* QuartzCore.framework */; };
+		42D73B0C1EBC7A6100199238 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFDF8A74CAF0D5B5662CF49 /* AVFoundation.framework */; };
+		42D73B0D1EBC7A6100199238 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5951AF4CEA3CF2D57B227873 /* CoreMedia.framework */; };
+		42D73B0E1EBC7A6100199238 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225CFD16321EC5AE467F9863 /* CoreVideo.framework */; };
+		42D73B101EBC7A6100199238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
+		42D73B111EBC7A6100199238 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
+		42D73B121EBC7A6100199238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
 		42DE84731EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE84721EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift */; };
 		42DE84811EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE84801EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.swift */; };
 		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
@@ -47,6 +62,8 @@
 		225CFD16321EC5AE467F9863 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		37895EB0CF2A034753AE055D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		37AED320BBBFC768EA64568A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		42D73B161EBC7A6100199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D73B171EBC7A6200199238 /* RomanNumeralCalculator copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumeralCalculator copy-Info.plist"; path = "/Users/Programmer/Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculator copy-Info.plist"; sourceTree = "<absolute>"; };
 		42DE84701EBA32740017BAE2 /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DE84721EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
 		42DE84741EBA32740017BAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +88,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42D73B051EBC7A6100199238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D73B061EBC7A6100199238 /* BuddyBuildSDK.framework in Frameworks */,
+				42D73B071EBC7A6100199238 /* AssetsLibrary.framework in Frameworks */,
+				42D73B081EBC7A6100199238 /* CoreText.framework in Frameworks */,
+				42D73B091EBC7A6100199238 /* CoreTelephony.framework in Frameworks */,
+				42D73B0A1EBC7A6100199238 /* SystemConfiguration.framework in Frameworks */,
+				42D73B0B1EBC7A6100199238 /* QuartzCore.framework in Frameworks */,
+				42D73B0C1EBC7A6100199238 /* AVFoundation.framework in Frameworks */,
+				42D73B0D1EBC7A6100199238 /* CoreMedia.framework in Frameworks */,
+				42D73B0E1EBC7A6100199238 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42DE846D1EBA32740017BAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +180,7 @@
 				835AEC8C1D80DD800046555C /* Products */,
 				A9F6F27287346C1FC33A6594 /* Frameworks */,
 				C8E0705BB1B86B921B6346A7 /* Bridging-Header.h */,
+				42D73B171EBC7A6200199238 /* RomanNumeralCalculator copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +190,7 @@
 				835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */,
 				42DE84701EBA32740017BAE2 /* RomanNumeralCalculatorTests.xctest */,
 				42DE847E1EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.xctest */,
+				42D73B161EBC7A6100199238 /* RomanNumeralCalculatorDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +228,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		42D73B001EBC7A6100199238 /* RomanNumeralCalculatorDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D73B131EBC7A6100199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */;
+			buildPhases = (
+				42D73B011EBC7A6100199238 /* Sources */,
+				42D73B051EBC7A6100199238 /* Frameworks */,
+				42D73B0F1EBC7A6100199238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralCalculatorDev;
+			productName = RomanNumeralCalculator;
+			productReference = 42D73B161EBC7A6100199238 /* RomanNumeralCalculatorDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		42DE846F1EBA32740017BAE2 /* RomanNumeralCalculatorTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DE84771EBA32740017BAE2 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
@@ -256,6 +308,9 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = buddybuild;
 				TargetAttributes = {
+					42D73B001EBC7A6100199238 = {
+						DevelopmentTeam = ZAD32BLY8Z;
+					};
 					42DE846F1EBA32740017BAE2 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZAD32BLY8Z;
@@ -296,11 +351,22 @@
 				835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */,
 				42DE846F1EBA32740017BAE2 /* RomanNumeralCalculatorTests */,
 				42DE847D1EBA328F0017BAE2 /* RomanNumeralCalculatorUITests */,
+				42D73B001EBC7A6100199238 /* RomanNumeralCalculatorDev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		42D73B0F1EBC7A6100199238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D73B101EBC7A6100199238 /* Assets.xcassets in Resources */,
+				42D73B111EBC7A6100199238 /* LaunchScreen.xib in Resources */,
+				42D73B121EBC7A6100199238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42DE846E1EBA32740017BAE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +394,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42D73B011EBC7A6100199238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D73B021EBC7A6100199238 /* ViewController.swift in Sources */,
+				42D73B031EBC7A6100199238 /* RomanNumeral.swift in Sources */,
+				42D73B041EBC7A6100199238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42DE846C1EBA32740017BAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +465,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		42D73B141EBC7A6100199238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "RomanNumeralCalculator copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumeralCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42D73B151EBC7A6100199238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZAD32BLY8Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "RomanNumeralCalculator copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.roman.RomanNumeralCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		42DE84781EBA32740017BAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +714,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42D73B131EBC7A6100199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D73B141EBC7A6100199238 /* Debug */,
+				42D73B151EBC7A6100199238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		42DE84771EBA32740017BAE2 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
