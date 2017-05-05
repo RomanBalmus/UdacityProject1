@@ -25,6 +25,8 @@
 		42D73B281EBC7BFB00199238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
 		42D73B291EBC7BFB00199238 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
 		42D73B2A1EBC7BFB00199238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
+		42D73B3B1EBC84EF00199238 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */; };
+		42D73B3D1EBC84FB00199238 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */; };
 		42DE84731EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE84721EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift */; };
 		42DE84811EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE84801EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.swift */; };
 		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
@@ -64,6 +66,8 @@
 		37AED320BBBFC768EA64568A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D73B2F1EBC7BFC00199238 /* RomanNumeralCalculatorDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumeralCalculatorDev-Info.plist"; path = "/Users/Programmer/Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculatorDev-Info.plist"; sourceTree = "<absolute>"; };
+		42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Develop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42DE84701EBA32740017BAE2 /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DE84721EBA32740017BAE2 /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
 		42DE84741EBA32740017BAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,18 +141,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42D73AFE1EBC794800199238 /* GoogleDev */ = {
+		42D73B341EBC847500199238 /* Dev */ = {
 			isa = PBXGroup;
 			children = (
+				42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */,
 			);
-			name = GoogleDev;
+			name = Dev;
 			sourceTree = "<group>";
 		};
-		42D73AFF1EBC795E00199238 /* GoogleRel */ = {
+		42D73B351EBC847C00199238 /* Rel */ = {
 			isa = PBXGroup;
 			children = (
+				42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */,
 			);
-			name = GoogleRel;
+			name = Rel;
 			sourceTree = "<group>";
 		};
 		42DE84711EBA32740017BAE2 /* RomanNumeralCalculatorTests */ = {
@@ -172,8 +178,6 @@
 		835AEC821D80DD7F0046555C = {
 			isa = PBXGroup;
 			children = (
-				42D73AFF1EBC795E00199238 /* GoogleRel */,
-				42D73AFE1EBC794800199238 /* GoogleDev */,
 				835AEC8D1D80DD800046555C /* RomanNumeralCalculator */,
 				42DE84711EBA32740017BAE2 /* RomanNumeralCalculatorTests */,
 				42DE847F1EBA328F0017BAE2 /* RomanNumeralCalculatorUITests */,
@@ -198,6 +202,8 @@
 		835AEC8D1D80DD800046555C /* RomanNumeralCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				42D73B351EBC847C00199238 /* Rel */,
+				42D73B341EBC847500199238 /* Dev */,
 				835AEC8E1D80DD800046555C /* AppDelegate.swift */,
 				835AEC901D80DD800046555C /* ViewController.swift */,
 				835AECBC1D80ED8F0046555C /* RomanNumeral.swift */,
@@ -362,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D73B281EBC7BFB00199238 /* Assets.xcassets in Resources */,
+				42D73B3D1EBC84FB00199238 /* GoogleService-Info.plist in Resources */,
 				42D73B291EBC7BFB00199238 /* LaunchScreen.xib in Resources */,
 				42D73B2A1EBC7BFB00199238 /* Main.storyboard in Resources */,
 			);
@@ -386,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				835AEC961D80DD800046555C /* Assets.xcassets in Resources */,
+				42D73B3B1EBC84EF00199238 /* GoogleService-Info.plist in Resources */,
 				A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */,
 				835AEC941D80DD800046555C /* Main.storyboard in Resources */,
 			);
