@@ -93,10 +93,8 @@ class ViewController: UIViewController {
     //MARK add login screen 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("Check if need to present loginController \(AppConfig.sharedInstance.userIsLogged)")
 
         if !AppConfig.sharedInstance.userIsLogged{
-            print("Present loginController because it was out")
            self.performSegue(withIdentifier: "showLoginController", sender: self)
         }else{
             self.view.isHidden=false
@@ -105,7 +103,7 @@ class ViewController: UIViewController {
     
     //MARK segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("segue: \(String(describing: segue.identifier))")
+
     }
     
 }
