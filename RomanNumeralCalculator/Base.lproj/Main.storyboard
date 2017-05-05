@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="FIL-WM-EEw">
+            <objects>
+                <viewController storyboardIdentifier="LoginPageID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ea7-KK-dHZ" customClass="LoginViewController" customModule="RomanNumeralCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bix-ug-EME"/>
+                        <viewControllerLayoutGuide type="bottom" id="7E1-6j-hSc"/>
+                    </layoutGuides>
+                    <view key="view" hidden="YES" contentMode="scaleToFill" id="vRL-GP-7uu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azU-iF-Y8n">
+                                <rect key="frame" x="147" y="221" width="120" height="30"/>
+                                <state key="normal" title="Facebook Sign-in"/>
+                                <connections>
+                                    <action selector="facebookSignInBtnTapped:" destination="ea7-KK-dHZ" eventType="touchUpInside" id="pXF-EN-TQU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lii-DM-00r">
+                                <rect key="frame" x="25" y="20" width="37" height="30"/>
+                                <state key="normal" title="close"/>
+                                <connections>
+                                    <action selector="closeBtnTapped:" destination="ea7-KK-dHZ" eventType="touchUpInside" id="jA3-ip-KvU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lii-DM-00r" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" id="FaO-YE-MTd"/>
+                            <constraint firstItem="azU-iF-Y8n" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" constant="201" id="GAB-dH-5cE"/>
+                            <constraint firstItem="azU-iF-Y8n" firstAttribute="centerX" secondItem="vRL-GP-7uu" secondAttribute="centerX" id="L0h-Tq-j4V"/>
+                            <constraint firstItem="Lii-DM-00r" firstAttribute="leading" secondItem="vRL-GP-7uu" secondAttribute="leadingMargin" constant="5" id="les-Os-A4K"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NTu-c8-4yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-29" y="-347"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -174,11 +215,12 @@
                         <outlet property="buttonV" destination="Jt4-rA-89p" id="lrQ-b3-Ko4"/>
                         <outlet property="buttonX" destination="h3q-3h-gaZ" id="waM-Oe-plQ"/>
                         <outlet property="resultLabel" destination="fpn-le-T7z" id="eFU-5c-06Q"/>
+                        <segue destination="ea7-KK-dHZ" kind="presentation" identifier="showLoginController" id="82T-Ao-Sj6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="277.60000000000002" y="359.37031484257875"/>
+            <point key="canvasLocation" x="-28" y="343"/>
         </scene>
     </scenes>
 </document>

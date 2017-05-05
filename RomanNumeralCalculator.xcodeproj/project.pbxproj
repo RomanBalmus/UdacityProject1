@@ -11,6 +11,9 @@
 		16AF7225CBD90EF93D12DB54 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705F8C50D862D484DEAE47E9 /* SystemConfiguration.framework */; };
 		191A8B158BC4E82D85EE525D /* Pods_RomanNumeralCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF4E9F1FACEFED6C5C4B53 /* Pods_RomanNumeralCalculatorTests.framework */; };
 		1A53FCD373D1CAFA463F6523 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF5A441DAC0455CE689465 /* AssetsLibrary.framework */; };
+		42B125C61EBCA05400F935C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C51EBCA05400F935C9 /* LoginViewController.swift */; };
+		42B125C91EBCAA3200F935C9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C81EBCAA3200F935C9 /* AppConfig.swift */; };
+		42B125CA1EBCAA3200F935C9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C81EBCAA3200F935C9 /* AppConfig.swift */; };
 		42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		42D73B1C1EBC7BFB00199238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
@@ -71,6 +74,8 @@
 		36DB428ED4CBDA0047400BFB /* Pods-RomanNumeralCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorUITests/Pods-RomanNumeralCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		37895EB0CF2A034753AE055D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		37AED320BBBFC768EA64568A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		42B125C51EBCA05400F935C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42B125C81EBCAA3200F935C9 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D73B2F1EBC7BFC00199238 /* RomanNumeralCalculatorDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumeralCalculatorDev-Info.plist"; path = "/Users/Programmer/Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculatorDev-Info.plist"; sourceTree = "<absolute>"; };
 		42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -161,6 +166,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42B125C71EBCAA1500F935C9 /* SharredInstance */ = {
+			isa = PBXGroup;
+			children = (
+				42B125C81EBCAA3200F935C9 /* AppConfig.swift */,
+			);
+			name = SharredInstance;
+			sourceTree = "<group>";
+		};
 		42D73B341EBC847500199238 /* Dev */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +236,7 @@
 		835AEC8D1D80DD800046555C /* RomanNumeralCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				42B125C71EBCAA1500F935C9 /* SharredInstance */,
 				42D73B351EBC847C00199238 /* Rel */,
 				42D73B341EBC847500199238 /* Dev */,
 				835AEC8E1D80DD800046555C /* AppDelegate.swift */,
@@ -232,6 +246,7 @@
 				835AEC921D80DD800046555C /* Main.storyboard */,
 				A91340101DE008F2005ED9CA /* LaunchScreen.xib */,
 				835AEC9A1D80DD800046555C /* Info.plist */,
+				42B125C51EBCA05400F935C9 /* LoginViewController.swift */,
 			);
 			path = RomanNumeralCalculator;
 			sourceTree = "<group>";
@@ -642,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */,
+				42B125CA1EBCAA3200F935C9 /* AppConfig.swift in Sources */,
 				42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */,
 				42D73B1C1EBC7BFB00199238 /* AppDelegate.swift in Sources */,
 			);
@@ -667,6 +683,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B125C61EBCA05400F935C9 /* LoginViewController.swift in Sources */,
+				42B125C91EBCAA3200F935C9 /* AppConfig.swift in Sources */,
 				835AEC911D80DD800046555C /* ViewController.swift in Sources */,
 				835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */,
 				835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */,
