@@ -98,6 +98,8 @@ class ViewController: UIViewController {
         if !AppConfig.sharedInstance.userIsLogged{
             print("Present loginController because it was out")
            self.performSegue(withIdentifier: "showLoginController", sender: self)
+        }else{
+            self.view.isHidden=false
         }
     }
     
