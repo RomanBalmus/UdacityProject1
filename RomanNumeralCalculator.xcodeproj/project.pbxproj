@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A292B7EFB5D1A6A30E1D076 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AED320BBBFC768EA64568A /* CoreText.framework */; };
 		16AF7225CBD90EF93D12DB54 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705F8C50D862D484DEAE47E9 /* SystemConfiguration.framework */; };
+		191A8B158BC4E82D85EE525D /* Pods_RomanNumeralCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF4E9F1FACEFED6C5C4B53 /* Pods_RomanNumeralCalculatorTests.framework */; };
 		1A53FCD373D1CAFA463F6523 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF5A441DAC0455CE689465 /* AssetsLibrary.framework */; };
 		42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
@@ -36,8 +37,11 @@
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		99880E3C7E9F4C2B0D5020F2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37895EB0CF2A034753AE055D /* CoreTelephony.framework */; };
 		9F34197DA03865BDD00F1459 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225CFD16321EC5AE467F9863 /* CoreVideo.framework */; };
+		A4DC94F8888C616A6D787FFA /* Pods_RomanNumeralCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98309624A0ADAD2404E2E914 /* Pods_RomanNumeralCalculatorUITests.framework */; };
+		A611E9A882360F6163FFD5B2 /* Pods_RomanNumeralCalculatorDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539AE91FDC7A219834EDEBE /* Pods_RomanNumeralCalculatorDev.framework */; };
 		A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
 		BCBF1C3CCBCC9989505B1287 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1A7F887A35258C261C31D3 /* QuartzCore.framework */; };
+		BE6A18E06F2BAE89DE50BE04 /* Pods_RomanNumeralCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50A87AA7DB74F05855D1F3E /* Pods_RomanNumeralCalculator.framework */; };
 		C21514413BB681C9D4C4A074 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5951AF4CEA3CF2D57B227873 /* CoreMedia.framework */; };
 		CF280ABD4CB8DCA94CD0EC00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFDF8A74CAF0D5B5662CF49 /* AVFoundation.framework */; };
 		E21D174E1DB31148E7513728 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5A3CCBF263EF915D9C85C8 /* BuddyBuildSDK.framework */; };
@@ -61,7 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008162A17C74E89635DB6922 /* Pods-RomanNumeralCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		225CFD16321EC5AE467F9863 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		33F48317E565F72FE74686C4 /* Pods-RomanNumeralCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorTests/Pods-RomanNumeralCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		36DB428ED4CBDA0047400BFB /* Pods-RomanNumeralCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorUITests/Pods-RomanNumeralCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		37895EB0CF2A034753AE055D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		37AED320BBBFC768EA64568A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +85,7 @@
 		4DFDF8A74CAF0D5B5662CF49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5951AF4CEA3CF2D57B227873 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		5A5A3CCBF263EF915D9C85C8 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		6915DE6AE00E6DFFE79F2996 /* Pods-RomanNumeralCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorTests/Pods-RomanNumeralCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		705F8C50D862D484DEAE47E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,9 +94,17 @@
 		835AEC951D80DD800046555C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835AEC9A1D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		8715F20408E0D6AD22C6B5E1 /* Pods-RomanNumeralCalculatorDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorDev/Pods-RomanNumeralCalculatorDev.release.xcconfig"; sourceTree = "<group>"; };
+		98309624A0ADAD2404E2E914 /* Pods_RomanNumeralCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A808F7FBC627742431692538 /* Pods-RomanNumeralCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		A91340111DE008F2005ED9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC3A33E67DBF470B61B3A227 /* Pods-RomanNumeralCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorUITests/Pods-RomanNumeralCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B22B2727699898BE8EC85AC9 /* Pods-RomanNumeralCalculatorDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculatorDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculatorDev/Pods-RomanNumeralCalculatorDev.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E0705BB1B86B921B6346A7 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D3EF5A441DAC0455CE689465 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E539AE91FDC7A219834EDEBE /* Pods_RomanNumeralCalculatorDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FF4E9F1FACEFED6C5C4B53 /* Pods_RomanNumeralCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50A87AA7DB74F05855D1F3E /* Pods_RomanNumeralCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,7 @@
 				42D73B241EBC7BFB00199238 /* AVFoundation.framework in Frameworks */,
 				42D73B251EBC7BFB00199238 /* CoreMedia.framework in Frameworks */,
 				42D73B261EBC7BFB00199238 /* CoreVideo.framework in Frameworks */,
+				A611E9A882360F6163FFD5B2 /* Pods_RomanNumeralCalculatorDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191A8B158BC4E82D85EE525D /* Pods_RomanNumeralCalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DC94F8888C616A6D787FFA /* Pods_RomanNumeralCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +154,7 @@
 				CF280ABD4CB8DCA94CD0EC00 /* AVFoundation.framework in Frameworks */,
 				C21514413BB681C9D4C4A074 /* CoreMedia.framework in Frameworks */,
 				9F34197DA03865BDD00F1459 /* CoreVideo.framework in Frameworks */,
+				BE6A18E06F2BAE89DE50BE04 /* Pods_RomanNumeralCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +205,7 @@
 				A9F6F27287346C1FC33A6594 /* Frameworks */,
 				C8E0705BB1B86B921B6346A7 /* Bridging-Header.h */,
 				42D73B2F1EBC7BFC00199238 /* RomanNumeralCalculatorDev-Info.plist */,
+				8E9582FE42C152011396E91C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +236,21 @@
 			path = RomanNumeralCalculator;
 			sourceTree = "<group>";
 		};
+		8E9582FE42C152011396E91C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				008162A17C74E89635DB6922 /* Pods-RomanNumeralCalculator.debug.xcconfig */,
+				A808F7FBC627742431692538 /* Pods-RomanNumeralCalculator.release.xcconfig */,
+				B22B2727699898BE8EC85AC9 /* Pods-RomanNumeralCalculatorDev.debug.xcconfig */,
+				8715F20408E0D6AD22C6B5E1 /* Pods-RomanNumeralCalculatorDev.release.xcconfig */,
+				6915DE6AE00E6DFFE79F2996 /* Pods-RomanNumeralCalculatorTests.debug.xcconfig */,
+				33F48317E565F72FE74686C4 /* Pods-RomanNumeralCalculatorTests.release.xcconfig */,
+				36DB428ED4CBDA0047400BFB /* Pods-RomanNumeralCalculatorUITests.debug.xcconfig */,
+				AC3A33E67DBF470B61B3A227 /* Pods-RomanNumeralCalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9F6F27287346C1FC33A6594 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +263,10 @@
 				4DFDF8A74CAF0D5B5662CF49 /* AVFoundation.framework */,
 				5951AF4CEA3CF2D57B227873 /* CoreMedia.framework */,
 				225CFD16321EC5AE467F9863 /* CoreVideo.framework */,
+				F50A87AA7DB74F05855D1F3E /* Pods_RomanNumeralCalculator.framework */,
+				E539AE91FDC7A219834EDEBE /* Pods_RomanNumeralCalculatorDev.framework */,
+				E9FF4E9F1FACEFED6C5C4B53 /* Pods_RomanNumeralCalculatorTests.framework */,
+				98309624A0ADAD2404E2E914 /* Pods_RomanNumeralCalculatorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */;
 			buildPhases = (
+				2608B50882CD6F2E98508A15 /* [CP] Check Pods Manifest.lock */,
 				42D73B191EBC7BFB00199238 /* Sources */,
 				42D73B1D1EBC7BFB00199238 /* Frameworks */,
 				42D73B271EBC7BFB00199238 /* Resources */,
+				31E5A74254C5B021DAA680F1 /* [CP] Embed Pods Frameworks */,
+				4FF399A49B62ECF1B41FB213 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DE84771EBA32740017BAE2 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
 			buildPhases = (
+				48655EB7EDD65330D8D5B9BB /* [CP] Check Pods Manifest.lock */,
 				42DE846C1EBA32740017BAE2 /* Sources */,
 				42DE846D1EBA32740017BAE2 /* Frameworks */,
 				42DE846E1EBA32740017BAE2 /* Resources */,
+				BD54442DFDF3D952A0AD77AE /* [CP] Embed Pods Frameworks */,
+				E3FECCDE9ACFE7259B4E2770 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DE84851EBA328F0017BAE2 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
 			buildPhases = (
+				55B98AFCFF9C3D9298A5DD77 /* [CP] Check Pods Manifest.lock */,
 				42DE847A1EBA328F0017BAE2 /* Sources */,
 				42DE847B1EBA328F0017BAE2 /* Frameworks */,
 				42DE847C1EBA328F0017BAE2 /* Resources */,
+				1BDFAEC61E202E2B6AE18AF7 /* [CP] Embed Pods Frameworks */,
+				3E76D5E3C152873B36ED6DC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 835AECB31D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator" */;
 			buildPhases = (
+				E42FFE9123EA752DFD1F6611 /* [CP] Check Pods Manifest.lock */,
 				835AEC871D80DD7F0046555C /* Sources */,
 				835AEC881D80DD7F0046555C /* Frameworks */,
 				835AEC891D80DD7F0046555C /* Resources */,
+				0C2FA52D14376FE5DE76108D /* [CP] Embed Pods Frameworks */,
+				0CA81EFFABFB659B9266260B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +453,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C2FA52D14376FE5DE76108D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CA81EFFABFB659B9266260B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BDFAEC61E202E2B6AE18AF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorUITests/Pods-RomanNumeralCalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2608B50882CD6F2E98508A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31E5A74254C5B021DAA680F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorDev/Pods-RomanNumeralCalculatorDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E76D5E3C152873B36ED6DC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorUITests/Pods-RomanNumeralCalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48655EB7EDD65330D8D5B9BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF399A49B62ECF1B41FB213 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorDev/Pods-RomanNumeralCalculatorDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B98AFCFF9C3D9298A5DD77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD54442DFDF3D952A0AD77AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorTests/Pods-RomanNumeralCalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FECCDE9ACFE7259B4E2770 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculatorTests/Pods-RomanNumeralCalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42FFE9123EA752DFD1F6611 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42D73B191EBC7BFB00199238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -475,6 +710,7 @@
 /* Begin XCBuildConfiguration section */
 		42D73B2C1EBC7BFB00199238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22B2727699898BE8EC85AC9 /* Pods-RomanNumeralCalculatorDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -498,6 +734,7 @@
 		};
 		42D73B2D1EBC7BFB00199238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8715F20408E0D6AD22C6B5E1 /* Pods-RomanNumeralCalculatorDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -521,6 +758,7 @@
 		};
 		42DE84781EBA32740017BAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6915DE6AE00E6DFFE79F2996 /* Pods-RomanNumeralCalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -539,6 +777,7 @@
 		};
 		42DE84791EBA32740017BAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F48317E565F72FE74686C4 /* Pods-RomanNumeralCalculatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -556,6 +795,7 @@
 		};
 		42DE84861EBA328F0017BAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DB428ED4CBDA0047400BFB /* Pods-RomanNumeralCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -573,6 +813,7 @@
 		};
 		42DE84871EBA328F0017BAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3A33E67DBF470B61B3A227 /* Pods-RomanNumeralCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -679,6 +920,7 @@
 		};
 		835AECB41D80DD800046555C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008162A17C74E89635DB6922 /* Pods-RomanNumeralCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -701,6 +943,7 @@
 		};
 		835AECB51D80DD800046555C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A808F7FBC627742431692538 /* Pods-RomanNumeralCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
