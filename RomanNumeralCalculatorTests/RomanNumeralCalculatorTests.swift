@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Firebase
+@testable import Firebase
 @testable import RomanNumeralCalculator
 
 class RomanNumeralCalculatorTests: XCTestCase {
