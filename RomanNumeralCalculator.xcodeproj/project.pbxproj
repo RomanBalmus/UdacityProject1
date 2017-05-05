@@ -50,10 +50,10 @@
 		99880E3C7E9F4C2B0D5020F2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37895EB0CF2A034753AE055D /* CoreTelephony.framework */; };
 		9F34197DA03865BDD00F1459 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225CFD16321EC5AE467F9863 /* CoreVideo.framework */; };
 		A4DC94F8888C616A6D787FFA /* Pods_RomanNumeralCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98309624A0ADAD2404E2E914 /* Pods_RomanNumeralCalculatorUITests.framework */; };
-		A611E9A882360F6163FFD5B2 /* Pods_RomanNumeralCalculatorDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539AE91FDC7A219834EDEBE /* Pods_RomanNumeralCalculatorDev.framework */; };
+		A611E9A882360F6163FFD5B2 /* Pods_RomanNumeralCalculatorDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539AE91FDC7A219834EDEBE /* Pods_RomanNumeralCalculatorDev.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
 		BCBF1C3CCBCC9989505B1287 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1A7F887A35258C261C31D3 /* QuartzCore.framework */; };
-		BE6A18E06F2BAE89DE50BE04 /* Pods_RomanNumeralCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50A87AA7DB74F05855D1F3E /* Pods_RomanNumeralCalculator.framework */; };
+		BE6A18E06F2BAE89DE50BE04 /* Pods_RomanNumeralCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50A87AA7DB74F05855D1F3E /* Pods_RomanNumeralCalculator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C21514413BB681C9D4C4A074 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5951AF4CEA3CF2D57B227873 /* CoreMedia.framework */; };
 		CF280ABD4CB8DCA94CD0EC00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFDF8A74CAF0D5B5662CF49 /* AVFoundation.framework */; };
 		E21D174E1DB31148E7513728 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5A3CCBF263EF915D9C85C8 /* BuddyBuildSDK.framework */; };
