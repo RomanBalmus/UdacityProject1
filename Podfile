@@ -16,7 +16,6 @@ target 'RomanNumeralCalculatorDev' do
   use_frameworks!
 
   # Pods for RomanNumeralCalculatorDev
-pod 'Firebase/Core'
-pod 'Firebase/Database'
+
 
 end
