@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "42B125D81EBCCA4E00F935C9"
+               BuildableName = "RomanNumeralCalculatorDevUITests.xctest"
+               BlueprintName = "RomanNumeralCalculatorDevUITests"
+               ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "42B125E61EBCCA5500F935C9"
+               BuildableName = "RomanNumeralCalculatorDevTests.xctest"
+               BlueprintName = "RomanNumeralCalculatorDevTests"
+               ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
