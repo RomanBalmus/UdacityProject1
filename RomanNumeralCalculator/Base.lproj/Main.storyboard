@@ -36,19 +36,36 @@
                                     <action selector="closeBtnTapped:" destination="ea7-KK-dHZ" eventType="touchUpInside" id="jA3-ip-KvU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iza-NC-BXN">
+                                <rect key="frame" x="20" y="259" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="I0C-oq-yZw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="ZCu-Hl-of0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Lii-DM-00r" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" id="FaO-YE-MTd"/>
-                            <constraint firstItem="azU-iF-Y8n" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" constant="201" id="GAB-dH-5cE"/>
-                            <constraint firstItem="azU-iF-Y8n" firstAttribute="centerX" secondItem="vRL-GP-7uu" secondAttribute="centerX" id="L0h-Tq-j4V"/>
-                            <constraint firstItem="Lii-DM-00r" firstAttribute="leading" secondItem="vRL-GP-7uu" secondAttribute="leadingMargin" constant="5" id="les-Os-A4K"/>
+                            <constraint firstItem="Lii-DM-00r" firstAttribute="leading" secondItem="vRL-GP-7uu" secondAttribute="leadingMargin" constant="5" id="P0R-9N-KhK"/>
+                            <constraint firstItem="Lii-DM-00r" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" id="awH-FL-6DP"/>
+                            <constraint firstItem="azU-iF-Y8n" firstAttribute="top" secondItem="bix-ug-EME" secondAttribute="bottom" constant="201" id="b4V-Za-J0v"/>
+                            <constraint firstItem="azU-iF-Y8n" firstAttribute="centerX" secondItem="Iza-NC-BXN" secondAttribute="centerX" id="cir-Vt-ubM"/>
+                            <constraint firstItem="Iza-NC-BXN" firstAttribute="top" secondItem="azU-iF-Y8n" secondAttribute="bottom" constant="8" symbolic="YES" id="ewg-ls-TQi"/>
+                            <constraint firstItem="azU-iF-Y8n" firstAttribute="centerX" secondItem="vRL-GP-7uu" secondAttribute="centerX" id="oxJ-gP-lTh"/>
+                            <constraint firstItem="Iza-NC-BXN" firstAttribute="leading" secondItem="vRL-GP-7uu" secondAttribute="leadingMargin" id="qCL-NV-4p5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Iza-NC-BXN" secondAttribute="trailing" id="y3I-dD-gWi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="receivedDataLabel" destination="Iza-NC-BXN" id="N2Z-bj-INf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTu-c8-4yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-29" y="-347"/>
+            <point key="canvasLocation" x="-30.434782608695656" y="-347.28260869565219"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
