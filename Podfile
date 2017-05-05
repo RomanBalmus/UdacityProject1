@@ -8,7 +8,17 @@ target 'RomanNumeralCalculator' do
   # Pods for RomanNumeralCalculator
   pod 'Firebase/Core'
   pod 'Firebase/Database'
- 
+  target 'RomanNumeralCalculatorTests' do
+      inherit! :search_paths
+      # Pods for testing
+      pod 'Firebase'
+  end
+  
+  target 'RomanNumeralCalculatorUITests' do
+      inherit! :search_paths
+      # Pods for testing
+      pod 'Firebase'
+  end
 end
 
 target 'RomanNumeralCalculatorDev' do
@@ -17,5 +27,17 @@ target 'RomanNumeralCalculatorDev' do
 
   # Pods for RomanNumeralCalculatorDev
 
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+target 'RomanNumeralCalculatorDevTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Firebase'
+end
 
+target 'RomanNumeralCalculatorDevUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Firebase'
+end
 end
