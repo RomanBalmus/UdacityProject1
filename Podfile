@@ -6,7 +6,8 @@ target 'RomanNumeralCalculator' do
   use_frameworks!
 
   # Pods for RomanNumeralCalculator
-pod 'Firebase/Core'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
   target 'RomanNumeralCalculatorTests' do
     inherit! :search_paths
     # Pods for testing
@@ -25,4 +26,6 @@ target 'RomanNumeralCalculatorDev' do
 
   # Pods for RomanNumeralCalculatorDev
 pod 'Firebase/Core'
+pod 'Firebase/Database'
+
 end

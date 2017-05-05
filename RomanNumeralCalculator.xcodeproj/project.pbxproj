@@ -14,6 +14,13 @@
 		42B125C61EBCA05400F935C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C51EBCA05400F935C9 /* LoginViewController.swift */; };
 		42B125C91EBCAA3200F935C9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C81EBCAA3200F935C9 /* AppConfig.swift */; };
 		42B125CA1EBCAA3200F935C9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C81EBCAA3200F935C9 /* AppConfig.swift */; };
+		42B125CB1EBCAF6300F935C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125C51EBCA05400F935C9 /* LoginViewController.swift */; };
+		42B125CD1EBCB2C100F935C9 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125CC1EBCB2C100F935C9 /* FireAuth.swift */; };
+		42B125CE1EBCB2C100F935C9 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125CC1EBCB2C100F935C9 /* FireAuth.swift */; };
+		42B125D01EBCB36200F935C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125CF1EBCB36200F935C9 /* Constants.swift */; };
+		42B125D11EBCB36200F935C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125CF1EBCB36200F935C9 /* Constants.swift */; };
+		42B125D31EBCB72300F935C9 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125D21EBCB72300F935C9 /* FireDB.swift */; };
+		42B125D41EBCB72300F935C9 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125D21EBCB72300F935C9 /* FireDB.swift */; };
 		42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		42D73B1C1EBC7BFB00199238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
@@ -76,6 +83,9 @@
 		37AED320BBBFC768EA64568A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		42B125C51EBCA05400F935C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		42B125C81EBCAA3200F935C9 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		42B125CC1EBCB2C100F935C9 /* FireAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireAuth.swift; sourceTree = "<group>"; };
+		42B125CF1EBCB36200F935C9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42B125D21EBCB72300F935C9 /* FireDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireDB.swift; sourceTree = "<group>"; };
 		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D73B2F1EBC7BFC00199238 /* RomanNumeralCalculatorDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumeralCalculatorDev-Info.plist"; path = "/Users/Programmer/Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculatorDev-Info.plist"; sourceTree = "<absolute>"; };
 		42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -170,6 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				42B125C81EBCAA3200F935C9 /* AppConfig.swift */,
+				42B125CC1EBCB2C100F935C9 /* FireAuth.swift */,
+				42B125CF1EBCB36200F935C9 /* Constants.swift */,
+				42B125D21EBCB72300F935C9 /* FireDB.swift */,
 			);
 			name = SharredInstance;
 			sourceTree = "<group>";
@@ -659,7 +672,11 @@
 				42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */,
 				42B125CA1EBCAA3200F935C9 /* AppConfig.swift in Sources */,
 				42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */,
+				42B125D41EBCB72300F935C9 /* FireDB.swift in Sources */,
+				42B125CB1EBCAF6300F935C9 /* LoginViewController.swift in Sources */,
+				42B125D11EBCB36200F935C9 /* Constants.swift in Sources */,
 				42D73B1C1EBC7BFB00199238 /* AppDelegate.swift in Sources */,
+				42B125CE1EBCB2C100F935C9 /* FireAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,8 +703,11 @@
 				42B125C61EBCA05400F935C9 /* LoginViewController.swift in Sources */,
 				42B125C91EBCAA3200F935C9 /* AppConfig.swift in Sources */,
 				835AEC911D80DD800046555C /* ViewController.swift in Sources */,
+				42B125D31EBCB72300F935C9 /* FireDB.swift in Sources */,
 				835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */,
+				42B125D01EBCB36200F935C9 /* Constants.swift in Sources */,
 				835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */,
+				42B125CD1EBCB2C100F935C9 /* FireAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
