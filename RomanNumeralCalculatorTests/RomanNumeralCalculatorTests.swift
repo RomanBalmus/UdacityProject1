@@ -9,7 +9,7 @@
 import XCTest
 
 @testable import RomanNumeralCalculator
-import FirebaseCore
+
 class RomanNumeralCalculatorTests: XCTestCase {
 
     override func setUp() {
