@@ -10,6 +10,8 @@
 		0A88272C6A432975D6CF801623756269 /* Pods-RomanNumeralCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD08ABAD82DDC3EEC0B8DACA6DA3AE4 /* Pods-RomanNumeralCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E7D4C4D97874753C3A3E077599920AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		42B125F11EBCD17F00F935C9 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */; };
+		42B125F21EBCD17F00F935C9 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */; };
 		461E5E4C7108F85343965AC4244A7F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		498BFC69547C1F48519CD8D4FFFAB904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,10 +48,10 @@
 
 /* Begin PBXFileReference section */
 		0083D140BB95133DA4D0BE8A6FB38340 /* Pods-RomanNumeralCalculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RomanNumeralCalculatorUITests-resources.sh"; sourceTree = "<group>"; };
-		00EE4870CF273B3AF27E8F326F02AB75 /* Pods_RomanNumeralCalculatorDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RomanNumeralCalculatorDev.framework; path = "Pods-RomanNumeralCalculatorDev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EE4870CF273B3AF27E8F326F02AB75 /* Pods_RomanNumeralCalculatorDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		055E398457597F2477D83B5C59CA0312 /* Pods-RomanNumeralCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RomanNumeralCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0645D4D10E800EC4C7BF8B10FCFB5021 /* Pods-RomanNumeralCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RomanNumeralCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
-		065BF5719FCF2A31272545EF0FFF9328 /* Pods-RomanNumeralCalculatorDev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RomanNumeralCalculatorDev.modulemap"; sourceTree = "<group>"; };
+		065BF5719FCF2A31272545EF0FFF9328 /* Pods-RomanNumeralCalculatorDev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RomanNumeralCalculatorDev.modulemap"; sourceTree = "<group>"; };
 		0A9621A34D48F2A207BC3FA220268267 /* Pods-RomanNumeralCalculatorDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RomanNumeralCalculatorDev.debug.xcconfig"; sourceTree = "<group>"; };
 		1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
 		19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
@@ -64,8 +66,8 @@
 		4134255C026EA6825C7815506057D064 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		456D2895D8F2E39FD9F062011306E47E /* Pods-RomanNumeralCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RomanNumeralCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F03AE5A2F62FE3FC7CEFBD6B2856E85 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		6365E83FBC720E65797F34CE15E1252A /* Pods_RomanNumeralCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RomanNumeralCalculator.framework; path = "Pods-RomanNumeralCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		648B8F0DA18B70249A35574BF745BD84 /* Pods-RomanNumeralCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RomanNumeralCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		6365E83FBC720E65797F34CE15E1252A /* Pods_RomanNumeralCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648B8F0DA18B70249A35574BF745BD84 /* Pods-RomanNumeralCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RomanNumeralCalculatorUITests.modulemap"; sourceTree = "<group>"; };
 		71CE0C42800C70158E3C62E36226EE4F /* Pods-RomanNumeralCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RomanNumeralCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		74356B9AEE6135F079BF57711BFCB91F /* Pods-RomanNumeralCalculatorDev-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RomanNumeralCalculatorDev-frameworks.sh"; sourceTree = "<group>"; };
 		7626A13910C9E8B9E8E63E6CF63A4660 /* Pods-RomanNumeralCalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RomanNumeralCalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
@@ -74,24 +76,24 @@
 		8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		88F8D1895CD8DDF85E003D3A8F7D9E29 /* Pods-RomanNumeralCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RomanNumeralCalculator-dummy.m"; sourceTree = "<group>"; };
 		91A3D1D200EBEA38C19A610FFF213D36 /* Pods-RomanNumeralCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RomanNumeralCalculator-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96715736CD9F9447D95B2DF6D5920A34 /* Pods-RomanNumeralCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RomanNumeralCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		987DA35224A23ED859DA76CD5340BDFA /* Pods-RomanNumeralCalculatorDev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RomanNumeralCalculatorDev-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9DCEA9FBB87896AFFDFB7E5C961C3655 /* Pods-RomanNumeralCalculatorDev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RomanNumeralCalculatorDev-acknowledgements.plist"; sourceTree = "<group>"; };
 		9DD08ABAD82DDC3EEC0B8DACA6DA3AE4 /* Pods-RomanNumeralCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RomanNumeralCalculator-umbrella.h"; sourceTree = "<group>"; };
-		9E95B264941C639F4D87C3FD927A1D75 /* Pods-RomanNumeralCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RomanNumeralCalculator.modulemap"; sourceTree = "<group>"; };
+		9E95B264941C639F4D87C3FD927A1D75 /* Pods-RomanNumeralCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RomanNumeralCalculator.modulemap"; sourceTree = "<group>"; };
 		9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		9FED1EF698CEF50B6714652DD27149D0 /* Pods-RomanNumeralCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RomanNumeralCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		9FED1EF698CEF50B6714652DD27149D0 /* Pods-RomanNumeralCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RomanNumeralCalculatorTests.modulemap"; sourceTree = "<group>"; };
 		AA6A3B218859E5BE3B09346CD3434023 /* Pods-RomanNumeralCalculatorDev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RomanNumeralCalculatorDev-dummy.m"; sourceTree = "<group>"; };
 		AC4F1AD7A2D53A83EE7B729989A48FCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02F1AF499F60BC72555ADDE93D05897 /* Pods-RomanNumeralCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RomanNumeralCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C0C2F459E5E30AE6AC8B357C62D389E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1EB450B5C08E7F68D19A28C61D085DF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		C3271C0527AB6FA86029A68818185B17 /* Pods-RomanNumeralCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RomanNumeralCalculatorTests-dummy.m"; sourceTree = "<group>"; };
-		C3C20C5BE70C41057BDD9AED0B54FF21 /* Pods_RomanNumeralCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RomanNumeralCalculatorUITests.framework; path = "Pods-RomanNumeralCalculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C20C5BE70C41057BDD9AED0B54FF21 /* Pods_RomanNumeralCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A6F2AEACEC5A0196EA764B368672A4 /* Pods-RomanNumeralCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RomanNumeralCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
-		C760D5FFE027DC4F4C425C30E27B7FC8 /* Pods_RomanNumeralCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RomanNumeralCalculatorTests.framework; path = "Pods-RomanNumeralCalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		C760D5FFE027DC4F4C425C30E27B7FC8 /* Pods_RomanNumeralCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD50215820A955E04FF1DA51EA8BB462 /* Pods-RomanNumeralCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RomanNumeralCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
 		D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
@@ -105,7 +107,7 @@
 		F27DE02DCF38B8B2472DABDC6ACDF4DF /* Pods-RomanNumeralCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RomanNumeralCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F611580BFE92047364E87C0CA78A55E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6E1F44C0B7A052D51CEB62453BDDD78 /* Pods-RomanNumeralCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RomanNumeralCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD3ED251A10DCA05DE94CD2E634F1712 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3ED251A10DCA05DE94CD2E634F1712 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,7 +240,6 @@
 			children = (
 				3F2EBD8B64B5E30E2186A6FBD94C29CE /* Frameworks */,
 			);
-			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -247,7 +248,6 @@
 			children = (
 				09F2FD44F2E6572057E224C2C73827E2 /* Core */,
 			);
-			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -314,7 +314,6 @@
 			children = (
 				F0F116DE54A3573FC3A328A5E6A5821D /* Frameworks */,
 			);
-			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -323,7 +322,6 @@
 			children = (
 				AAA364C55C635CE93C4DFED4A993D325 /* Frameworks */,
 			);
-			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -345,7 +343,6 @@
 				6B68D45812C2C46C6A1D821AC37D544B /* NSData+zlib */,
 				A96AF31933F6210AC40D20C134635815 /* Support Files */,
 			);
-			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
@@ -376,7 +373,6 @@
 			children = (
 				22630EE6BE14930BD68DB3A410A789E9 /* Frameworks */,
 			);
-			name = FirebaseDatabase;
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
@@ -430,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53FECF737B57442EC4B0CCED1A88ED0 /* Pods-RomanNumeralCalculatorDev-umbrella.h in Headers */,
+				42B125F11EBCD17F00F935C9 /* Firebase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A88272C6A432975D6CF801623756269 /* Pods-RomanNumeralCalculator-umbrella.h in Headers */,
+				42B125F21EBCD17F00F935C9 /* Firebase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

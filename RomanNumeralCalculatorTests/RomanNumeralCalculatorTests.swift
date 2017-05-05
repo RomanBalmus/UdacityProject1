@@ -9,6 +9,7 @@
 import XCTest
 
 @testable import RomanNumeralCalculator
+@testable import RomanNumeralCalculatorDev
 
 class RomanNumeralCalculatorTests: XCTestCase {
 
