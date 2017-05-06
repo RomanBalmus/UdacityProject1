@@ -27,6 +27,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if !isUnitTesting() {
             FIRApp.configure()
+        }else{
+            let options = FIROptions(googleAppID: "1:462250349275:ios:be6789b769064e6a",
+                                     bundleID: "com.buddybuild.udacity.roman.RomanNumeralCalculator",
+                                     gcmSenderID: "462250349275",
+                                     apiKey: "AIzaSyBeuPlvrVC11sEFNzWU5LYoA1k1XYf_auk",
+                                     clientID: "462250349275-o626o6r6of9q9g9oddtcjmf8q836f4ad.apps.googleusercontent.com",
+                                     trackingID: "",
+                                     androidClientID: "",
+                                     databaseURL: "https://workcatalog-24c83.firebaseio.com",
+                                     storageBucket: "workcatalog-24c83.appspot.com",
+                                     deepLinkURLScheme: "")
+            FIRApp.configure(with: options!)
         }
         // Override point for customization after application launch.
         return true
