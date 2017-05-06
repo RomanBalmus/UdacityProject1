@@ -56,6 +56,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .faceUp
         
         let app = XCUIApplication()
+        app.buttons["close"].tap()
         let iButton = app.buttons["I"]
         let calculatedLabel = app.staticTexts["calculated_value"]
 
@@ -74,6 +75,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .faceUp
         
         let app = XCUIApplication()
+        app.buttons["close"].tap()
         let calculatedLabel = app.staticTexts["calculated_value"]
 
         app.buttons["Clear"].tap()
@@ -90,6 +92,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .faceUp
         
         let app = XCUIApplication()
+        app.buttons["close"].tap()
         let calculatedLabel = app.staticTexts["calculated_value"]
 
         app.buttons["Clear"].tap()
@@ -116,6 +119,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .faceUp
         
         let app = XCUIApplication()
+        app.buttons["close"].tap()
         let calculatedLabel = app.staticTexts["calculated_value"]
 
         app.buttons["Clear"].tap()
