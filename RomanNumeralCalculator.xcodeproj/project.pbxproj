@@ -24,6 +24,10 @@
 		42B125D41EBCB72300F935C9 /* FireDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125D21EBCB72300F935C9 /* FireDB.swift */; };
 		42B125DC1EBCCA4E00F935C9 /* RomanNumeralCalculatorDevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125DB1EBCCA4E00F935C9 /* RomanNumeralCalculatorDevUITests.swift */; };
 		42B125EA1EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B125E91EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.swift */; };
+		42BEDEAB1EBDB08400180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */; };
+		42BEDEAC1EBDB08500180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */; };
+		42BEDEAD1EBDB08A00180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */; };
+		42BEDEAE1EBDB08A00180F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */; };
 		42D73B1A1EBC7BFB00199238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		42D73B1B1EBC7BFB00199238 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		42D73B1C1EBC7BFB00199238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
@@ -577,6 +581,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BEDEAE1EBDB08A00180F97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +589,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BEDEAD1EBDB08A00180F97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +608,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BEDEAC1EBDB08500180F97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BEDEAB1EBDB08400180F97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1344,6 +1352,7 @@
 				42B125E11EBCCA4E00F935C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B125EE1EBCCA5500F935C9 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDevTests" */ = {
 			isa = XCConfigurationList;
@@ -1352,6 +1361,7 @@
 				42B125F01EBCCA5500F935C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */ = {
 			isa = XCConfigurationList;
