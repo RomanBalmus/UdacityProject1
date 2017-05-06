@@ -29,6 +29,26 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         super.tearDown()
     }
     
+    
+    func testLoginPage() {
+        XCUIDevice.shared().orientation = .portrait
+        XCUIDevice.shared().orientation = .portrait
+        
+        let app = XCUIApplication()
+        let calculatedLabel = app.staticTexts["Permission Denied"]
+
+        app.buttons["Facebook Sign-in"].tap()
+
+        XCTAssertEqual(calculatedLabel.label, "Permission Denied")
+
+        app.buttons["close"].tap()
+        XCUIDevice.shared().orientation = .faceUp
+        
+        
+    }
+    
+    
+    
     func testAddOnePlusOne() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
