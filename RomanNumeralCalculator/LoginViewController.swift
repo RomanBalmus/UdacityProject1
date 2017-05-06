@@ -8,7 +8,7 @@
 
 import UIKit
 import Foundation
-//test comment
+//test with unit enabled
 class LoginViewController: UIViewController, FireDBDelegate {
     
     @IBOutlet weak var receivedDataLabel: UILabel!
