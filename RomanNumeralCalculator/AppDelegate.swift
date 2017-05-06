@@ -18,10 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     // MARK: UIApplicationDelegate
+    func isUnitTesting() -> Bool {
+        return ProcessInfo.processInfo.environment["TEST"] != nil
+    }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         BuddyBuildSDK.setup()
-        FIRApp.configure()
+        
+        if !isUnitTesting() {
+            FIRApp.configure()
+        }
         // Override point for customization after application launch.
         return true
     }
