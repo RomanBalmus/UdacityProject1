@@ -7,7 +7,7 @@
 //
 
 import XCTest
-
+@testable import Firebase
 class RomanNumeralCalculatorDevUITests: XCTestCase {
         
     override func setUp() {
@@ -21,6 +21,7 @@ class RomanNumeralCalculatorDevUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        FIRApp.configure()
     }
     
     override func tearDown() {
