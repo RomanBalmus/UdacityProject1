@@ -114,7 +114,7 @@
 		42B125E71EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorDevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B125E91EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorDevTests.swift; sourceTree = "<group>"; };
 		42B125EB1EBCCA5500F935C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculatorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculator - Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RomanNumeralCalculator - Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D73B2F1EBC7BFC00199238 /* RomanNumeralCalculatorDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RomanNumeralCalculatorDev-Info.plist"; path = "/Users/Programmer/Downloads/iosProjectsAndLibs/ios-short-continuous-integration-master/RomanNumeralCalculatorDev-Info.plist"; sourceTree = "<absolute>"; };
 		42D73B3A1EBC84EF00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Release/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42D73B3C1EBC84FB00199238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Develop/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -311,7 +311,7 @@
 				835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */,
 				42DE84701EBA32740017BAE2 /* RomanNumeralCalculatorTests.xctest */,
 				42DE847E1EBA328F0017BAE2 /* RomanNumeralCalculatorUITests.xctest */,
-				42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */,
+				42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculator - Debug.app */,
 				42B125D91EBCCA4E00F935C9 /* RomanNumeralCalculatorDevUITests.xctest */,
 				42B125E71EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.xctest */,
 			);
@@ -422,9 +422,9 @@
 			productReference = 42B125E71EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42D73B181EBC7BFB00199238 /* RomanNumeralCalculatorDev */ = {
+		42D73B181EBC7BFB00199238 /* RomanNumeralCalculator - Debug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */;
+			buildConfigurationList = 42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator - Debug" */;
 			buildPhases = (
 				2608B50882CD6F2E98508A15 /* [CP] Check Pods Manifest.lock */,
 				42D73B191EBC7BFB00199238 /* Sources */,
@@ -437,9 +437,9 @@
 			);
 			dependencies = (
 			);
-			name = RomanNumeralCalculatorDev;
+			name = "RomanNumeralCalculator - Debug";
 			productName = RomanNumeralCalculator;
-			productReference = 42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculatorDev.app */;
+			productReference = 42D73B2E1EBC7BFB00199238 /* RomanNumeralCalculator - Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		42DE846F1EBA32740017BAE2 /* RomanNumeralCalculatorTests */ = {
@@ -569,7 +569,7 @@
 				835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */,
 				42DE846F1EBA32740017BAE2 /* RomanNumeralCalculatorTests */,
 				42DE847D1EBA328F0017BAE2 /* RomanNumeralCalculatorUITests */,
-				42D73B181EBC7BFB00199238 /* RomanNumeralCalculatorDev */,
+				42D73B181EBC7BFB00199238 /* RomanNumeralCalculator - Debug */,
 				42B125D81EBCCA4E00F935C9 /* RomanNumeralCalculatorDevUITests */,
 				42B125E61EBCCA5500F935C9 /* RomanNumeralCalculatorDevTests */,
 			);
@@ -974,12 +974,12 @@
 /* Begin PBXTargetDependency section */
 		42B125DF1EBCCA4E00F935C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42D73B181EBC7BFB00199238 /* RomanNumeralCalculatorDev */;
+			target = 42D73B181EBC7BFB00199238 /* RomanNumeralCalculator - Debug */;
 			targetProxy = 42B125DE1EBCCA4E00F935C9 /* PBXContainerItemProxy */;
 		};
 		42B125ED1EBCCA5500F935C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42D73B181EBC7BFB00199238 /* RomanNumeralCalculatorDev */;
+			target = 42D73B181EBC7BFB00199238 /* RomanNumeralCalculator - Debug */;
 			targetProxy = 42B125EC1EBCCA5500F935C9 /* PBXContainerItemProxy */;
 		};
 		42DE84761EBA32740017BAE2 /* PBXTargetDependency */ = {
@@ -1363,7 +1363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorDev" */ = {
+		42D73B2B1EBC7BFB00199238 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator - Debug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42D73B2C1EBC7BFB00199238 /* Debug */,
